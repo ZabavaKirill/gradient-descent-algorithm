@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(48,48,48);
+    color: rgb(255,255,255);
+    }
+QWidget#title, QGroupBox, QLineEdit {
+    border-radius: 10px;
+    border: 2px solid gray;
+    }
+
+QGroupBox::title {
+    background-color: transparent;
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 5px 0px 2px 0px;
+    }
+
+QComboBox {
+    border: 1px solid gray;
+    background-color: transparent;
+}
+QComboBox:editable {
+    background: rgb(48,48,48);
+}
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+     background: rgb(48,48,48);
+}
+QComboBox QAbstractItemView {
+    border: 2px solid darkgray;
+    selection-background-color: lightgray;
+}
+

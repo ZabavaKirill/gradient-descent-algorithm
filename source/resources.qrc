@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/:res/qcc/style.qss">
+        <file>res/qss/style.qss</file>
+    </qresource>
+</RCC>
